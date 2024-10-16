@@ -7,7 +7,7 @@
         <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
-        <add_message>false</add_message>
+        <add_message>true</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
@@ -19,7 +19,7 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
-        <message/>
+        <message><![CDATA[<ul style="list-style-position: inside;"><li><strong>Quantity should be greater than 0</strong></li><li><strong>Provide value greater than 0 to insert the record</strong></li></ul>]]></message>
         <name>Validate Quantity Value</name>
         <order>100</order>
         <priority>100</priority>
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64055f91c3d9121065a51933e4013151</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Validate Quantity Value</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Wish list" source="x_1550111_new_wish">69a2fe9dc3d5121065a51933e40131b5</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="New Wish list">69a2fe9dc3d5121065a51933e40131b5</sys_scope>
         <sys_update_name>sys_script_64055f91c3d9121065a51933e4013151</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 16:44:01</sys_updated_on>
+        <sys_updated_on>2024-10-16 16:57:14</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
